@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: cornflowerblue;
+}
+.main-div{
+    width: 80%;
+    height: 100%;
+    background-color: crimson;
+    margin: auto;
+}
+.field{
+    width: 60%;
+    border: 2px white solid;
+    margin-left: 180px;
+}
+.submit{
+    color: teal;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+.reset{
+    color: teal;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.textArea{
+    margin-left: 180px;
+}

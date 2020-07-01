@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="main-div">
+        <header>
+            <h1 style="text-align: center; margin-top: 0px; padding-top: 25px;">Registration Form</h1><br><br>
+        </header>
+        <form action="#">
+            <fieldset class="field">
+                <legend style="font-family: monospace;font-size: large;">Required Information</legend>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">Name: </span><input type="text" placeholder="Enter Your Name" required></p>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">Email: </span><input type="email" placeholder="Enter Your Email" required></p>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">University: </span><input type="text" placeholder="Name of your University" required></p>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">Gender: </span><input type="radio">Male 
+                <input type="radio">Female <input type="radio">Others
+            </p>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">Religion: </span><input type="checkbox">Islam
+                <input type="checkbox">Hindu <input type="checkbox">Christian <input type="checkbox">Others
+            </p>
+            <p><span style="font-weight: bold; font-size: 20px; margin-left: 100px;">Department: </span>
+            <select>
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>ETE</option>
+                <option>ME</option>
+                <option>PME</option>
+                <option>URP</option>
+                <option>CE</option>
+                <option>MIE</option>
+
+            </select>
+            </p>
+            </fieldset><br>
+            <p style="margin-left: 180px; font-weight: bold; font-size: 20px;">Why you are interested in this job?</p>
+            <textarea class="textArea" rows="7" cols="55">
+            </textarea> <br> <br>
+            <input class="submit" type="submit" value="Submit">
+            <input class="reset" type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
