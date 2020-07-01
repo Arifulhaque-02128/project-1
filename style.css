@@ -45,15 +45,15 @@ p{
     width: 40%;
     height: 300px;
     float: left;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-top: 20px;
-    padding-left: 2%;
+    padding-left: 1%;
 }
 .card div{
     width: 70%;
     height: 80%;
     padding: 15px;
-    box-shadow: 10px 20px 40px gray;
+    box-shadow: 10px 10px 40px gray;
 }
 .footer{
     text-align: center;
