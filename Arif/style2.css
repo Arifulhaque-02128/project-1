@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    background-color:cornsilk;
+    margin: auto;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border:  green 2px solid;
+    margin: 30px 20px 10px 20px;
+    float: left;
+}
+.profile{
+    float: left;
+    padding: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear1{
+    clear: both;
+}
+.div-left{
+    float: left;
+    margin: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+
+}
+.div-right{
+    float: right;
+    margin: 30px 65px 30px 0px;
+}
+.clear2{
+    clear: both;
+}
+.div-left1{
+    float: left;
+    margin: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+
+}
+.div-right1{
+    float: right;
+    margin: 30px;
+}
+.clear3{
+    clear: both;
+}
+.div-left2{
+    float: left;
+    margin: 40px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: teal;
+
+}
+.div-right2{
+    float: right;
+    margin: 20px;
+}
+.clear4{
+    clear: both;
+}
+.footer{
+    background-color: #000016;
+}
+.footer-div1{
+    float: left;
+    color: white;
+    padding: 40px;
+}
+.footer-div2{
+    float: right;
+    color: white;
+    padding: 20px;
+    margin-right: 50px;
+}
+.clear5{
+    clear: both;
+}
