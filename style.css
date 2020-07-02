@@ -70,12 +70,4 @@ p{
     border-image: linear-gradient(180deg,  blue, cyan);
     border-image-slice: 1;
 }
-.section1{
-    border: 2px solid black;
-}
-.section2{
-    border: 2px solid green;
-}
-.section3{
-    border: 2px solid red;
-}
+
